@@ -6,11 +6,11 @@ deudas = int(input("digite sus deudas: "))
 
 # processing
 if ing > 945200:
-    
     if deudas == 0:
         print ("prestamo aprobado")
+    else:
+        deudas > 0
 else:
-   deudas > 0
    print ("prestamo no aprobado")
 
 #output
